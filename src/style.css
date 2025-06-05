@@ -749,3 +749,9 @@ button:focus {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
 }
+
+
+.AmanPic{
+  width: 60%;
+  border-radius: 20%;
+}
