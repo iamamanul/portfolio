@@ -17,7 +17,7 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
+              paddingTop: "0px", // reduced from 30px to 0px to move section up
               paddingBottom: "50px",
             }}
           >
@@ -28,15 +28,35 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{
+              paddingTop: "50px",
+              paddingLeft: "20px",echo "# Portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/iamamanul/Portfolio.git
+git push -u origin main
+
+              paddingBottom: "50px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src={laptopImg}
+              alt="about"
+              className="img-fluid"
+              style={{
+                maxHeight: "320px",
+                borderRadius: "18px",
+                boxShadow: "0 4px 24px 0 rgba(199,112,240,0.18)",
+              }}
+            />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
 
         <Techstack />
 
