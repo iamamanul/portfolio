@@ -30,14 +30,7 @@ function About() {
             md={5}
             style={{
               paddingTop: "50px",
-              paddingLeft: "20px",echo "# Portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/iamamanul/Portfolio.git
-git push -u origin main
-
+              paddingLeft: "20px",
               paddingBottom: "50px",
               display: "flex",
               alignItems: "center",
