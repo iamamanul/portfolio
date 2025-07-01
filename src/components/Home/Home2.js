@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/AmanPic.jpeg";
 import Tilt from "react-parallax-tilt";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -56,6 +56,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://github.com/iamamanul"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaGithub />
                 </a>
               </li>
             </ul>
